@@ -1,4 +1,4 @@
-const users = require('../Models');
+const users = require('../Models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { secret, expiresIn } = require('../config/config');
